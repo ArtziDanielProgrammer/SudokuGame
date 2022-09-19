@@ -1,0 +1,70 @@
+body {
+    background: url('../images/imagesLevelPage/trafficLight1.jpg') no-repeat scroll 10% 23%;
+    background-size: cover;
+}
+
+#title{
+width: 30%;
+height: 30%;
+}
+
+#subtitle{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    }
+
+    #subtitle2{
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        right: 7%;
+        top: 65%;
+        }
+
+        
+    #subtitle3{
+        width: 32%;
+        height: 8%;
+        position: absolute;
+        right: 0.5%;
+        top: 46.5%;
+        }
+#easy{
+
+    background-image: url('../images/imagesLevelPage/redLightTraffic.gif');
+    background-size: 120% 130%;
+    bottom:160px;
+    left: -6%;
+}
+
+#medium{
+    background-image: url('../images/imagesLevelPage/orangeLightTraffic.gif');
+    background-size: 150% 105%;
+    bottom: -75px;
+    left: 7%;
+}
+
+#hard{
+    background-image: url('../images/imagesLevelPage/greenLightTraffic.gif');
+    background-size: 130% 150%;
+    bottom: -310px;
+    left: 20%;
+}
+
+.trafficLightLevels{
+    background-repeat: no-repeat;
+
+    position: relative;
+    /* bottom:110px; */
+    /* bottom: -120px; */
+    
+    background-position: center;
+    width: 13%;
+    height: 180px;
+    background-color:transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}

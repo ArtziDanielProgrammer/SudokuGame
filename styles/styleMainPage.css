@@ -1,0 +1,62 @@
+body {
+    background: url('../images/imagesMainPage/mainPage1.jpg') no-repeat scroll center;
+    background-size: cover;
+}
+#title {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
+
+#subtitle {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: 43%;
+}
+.input-UserPassword {
+    text-align: center;
+    position: relative;
+    bottom: 14px;
+    left: 1%;
+    background-color:transparent;
+    color:blue;
+    font-size: large;
+    border-radius: 22px;
+    width: 20%;
+    height: 20%;
+}
+.img-UserPassword {
+    height: 5%;
+    width: 5%;
+}
+.par-Input {
+    margin-left: 44%;
+    font-size: medium;
+    /* color:  */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button-Action{
+
+    background-image: url('../images/imagesMainPage/enter.gif');
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: 110% 120%;
+    margin-left: 45%;
+    border: 0.1px;
+    width: 15%;
+    height: 60px;
+    /* background-color: blue;
+    font-size: large;
+    text-align: center;
+    color: white;
+    
+    border-radius: 22px; */
+        /* background-size: cover; */
+}
+
+.button-Action:hover{
+    cursor: pointer;
+}
