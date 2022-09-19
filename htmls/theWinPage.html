@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Win !</title>
+    <link rel="icon" href="..\images\imagesLogos&Icons\icon2.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/styleWinPage.css'>
+    
+</head>
+<body>
+    <img id="title" src="..\images\imagesWinPage\title.gif">
+    <img id="crown" src="..\images\imagesWinPage\crown.gif" onclick="playWin()">
+    <p id="timeFinish">
+        <img id="subtitle" src="..\images\imagesWinPage\subtitle.gif">
+        <span id="time">00:00:00</span>
+    </p>
+     
+            
+    <ul>
+        <li>
+            <button id="newGame" class="button-Action" onclick="location.href = 'theGamePage.html'"></button>
+        </li>
+
+        <li>
+            <button id="changeLevel" class="button-Action" onclick="location.href = 'theLevelsPage.html'""></button>
+        </li>
+
+        <li>
+            <button id="mainPage" class="button-Action" onclick="location.href = 'theMainPage.html'""></button>
+        </li>
+    </ul>
+
+    <audio controls id="soundWeb"  autoplay>
+        <source  src="..\songs\king.mp3" type="audio/mpeg" />
+      </audio>
+      
+    <script src='../scripts/scriptWinPage.js'></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+#welcomePer{
+    position: relative;
+    left: 18.5%;
+    top:5%;
+    width: 65%;
+    text-align: center;
+}
+ 
+#welcomeImg{
+    height: 80%;
+    width: 80%;
+}
+
+#userName{
+    color: royalblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:100%
+}
+                       
+                       /* טבלה כללית */
+
+
+.tableS{
+    border-collapse: collapse;
+    border: 3px solid red;
+    position: relative;
+    top:10%;
+    left:25%;
+}
+
+                             /* שורה כללית */
+.trS ,.trSS{
+    border-bottom: 0.8px solid black;
+}
+
+.trSS{
+    border-bottom: 2.4px solid red;
+}
+
+                             /* שורה מיוחדת */
+
+                            /* עמודה כללית */
+ .tdS ,.tdSS{
+    border-right: 0.7px solid black;
+}
+
+                            /* עמודה מיוחדת */
+
+.tdSS{
+    border-right: 2.5px solid red;
+}
+                            /* אינפוט */    
+.inputS{
+
+text-align: center;
+outline: none;
+border: none;
+width: 60px;
+height: 60px;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputS:hover{
+    background-color: lightskyblue!important;
+    transform: translateY(-4px);
+}
+
+.inputS:active{
+    box-shadow: 0 5px blue;
+    transform: translateX(4px);
+    background-color: cornflowerblue!important;
+}
+
+.inputS:focus{
+
+    background-color: lightseagreen!important;
+}
+
+
+.numbersTable{
+    background-color: lightyellow;
+    position: absolute;
+    top:55%;
+    left: 70%;
+}
+
+.numbersButton{
+    
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:0.1px;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+}
+
+.numbersButton:hover{
+    background-color: lightskyblue;
+    transform: translateY(-4px);
+}
+
+.numbersButton:active{
+    box-shadow: 0 5px blue;
+    transform: translateX(4px);
+    background-color: cornflowerblue;
+}
+
+#getClueButton{
+    
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.button-Action{
+    background-repeat: no-repeat;
+
+    position: relative;
+    /* bottom:110px; */
+    /* bottom: -120px; */
+    
+    background-position: center;
+    background-size: 100% 100%;
+    width: 20%;
+    height: 100px;
+    border-radius: 25%;
+    margin-left: 65%;
+    cursor: pointer;
+    border:0.1px;
+}
+
+
+.actionTable{
+    /* background-color: lightyellow; */
+    position: absolute;
+    top:0%;
+    table-layout:fixed;
+    width: 25%;
+}
+
+.button-Action:hover{
+    background-color: lightskyblue;
+    transform: translateY(-4px);
+}
+
+.button-Action:active{
+    box-shadow: 0 5px blue;
+    transform: translateX(4px);
+    background-color: cornflowerblue;
+}
+
+#imgUser{
+    width: 20%;
+    height: 20%;
+}
+
+#timerImg{
+    width:10%;
+    height: 10%;
+}
+
+#logoImg{
+    width:60%;
+    height: 60%;
+}
+
+#sloganImg
+{
+    width:30%;
+    height: 10%;
+    position: absolute;
+    left:30%;
+    top:20%;
+}
+
+#nameUser
+{
+    color: royalblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#soundWeb { 
+    display: none 
+}

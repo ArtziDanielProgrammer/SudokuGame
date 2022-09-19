@@ -1,0 +1,99 @@
+#title{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 33%;
+}
+
+#crown{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+
+#subtitle{
+
+    width: 15%;
+    height: 15%;
+    margin-left: 38%;
+    padding-right: 1%;
+}
+
+#time{
+    color: red;
+    background-color: transparent;
+    /* background-color: blue; */
+    font-style: inherit;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#newGame{
+
+    background-image: url('../images/imagesGamePage/actionButton/board2.jpg');
+    background-size: 100% 100%;
+    /* bottom:160px;
+    left: -6%; */
+}
+
+#changeLevel{
+
+    background-image: url('../images/imagesGamePage/actionButton/levels2.jpg');
+    background-size: 100% 100%;
+    /* bottom:160px;
+    left: -6%; */
+}
+
+#mainPage{
+
+    background-image: url('../images/imagesWinPage/mainPage.jpg');
+    background-size: 90% 90%;
+    /* bottom:160px;
+    left: -6%; */
+}
+
+.button-Action{
+    background-repeat: no-repeat;
+
+    position: relative;
+    /* bottom:110px; */
+    /* bottom: -120px; */
+    
+    background-position: center;
+    width: 10%;
+    height: 100px;
+    background-color:transparent;
+    border-radius: 25%;
+    cursor: pointer;
+    border:0.1px;
+}
+
+ul{
+    margin-left: 30%;
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+  }
+
+li{
+    padding-left: 5%;
+}
+
+.button-Action:hover{
+    background-color: lightskyblue;
+    transform: translateY(-4px);
+}
+
+.button-Action:active{
+    box-shadow: 0 5px blue;
+    transform: translateX(4px);
+    background-color: cornflowerblue;
+}
+
+#soundWeb { 
+    display: none 
+}
